@@ -66,5 +66,4 @@ public class SecureDoorLock {
             System.out.println("You shall not pass!");
         }
     }
-
 }
