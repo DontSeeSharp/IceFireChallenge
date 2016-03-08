@@ -39,7 +39,6 @@ public class SecureDoorLock {
 
     private String getFullName(String firstName, String lastName) {
         String fullName = firstName + " " + lastName;
-        System.out.println(fullName);
         if (fullName.length() == (int)fullName.charAt(0) - 58) {
             int sumOfLetters = 0;
             for (int x = 0; x < (fullName).length() - 1; x++) {
